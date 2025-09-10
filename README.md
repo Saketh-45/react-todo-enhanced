@@ -1,12 +1,32 @@
-# React + Vite
+# React Todo App – Enhanced ✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an enhanced **Todo application built with React + Vite**.  
+It includes **date filters, task priority management, local persistence, and search/sort** features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- ➕ Add, delete, and complete tasks  
+- 📅 Date filters: **All, Today, Overdue, Upcoming**  
+- 🚦 Task priority: **High, Medium, Low** with color badges  
+- 💾 LocalStorage persistence (tasks remain after refresh)  
+- 🔍 Search tasks by title  
+- ↕ Sort tasks (Newest, Oldest, Priority, Due Date)  
+- 📱 Responsive & clean UI  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/) (fast dev server + bundler)  
+- Context API (state management)  
+- Plain CSS for styling (easily swappable with Tailwind/CSS modules)  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR-USERNAME/react-todo-enhanced.git
+cd react-todo-enhanced
