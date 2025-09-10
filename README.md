@@ -30,3 +30,15 @@ It includes **date filters, task priority management, local persistence, and sea
 ```bash
 git clone https://github.com/YOUR-USERNAME/react-todo-enhanced.git
 cd react-todo-enhanced
+```
+###2. Install dependencies
+```bash
+npm install
+```
+###3. Run the development server
+```bash
+npm run dev
+```
+
+The app will be running at:
+👉 http://localhost:5173
